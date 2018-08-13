@@ -488,6 +488,7 @@ span.shortline5 {
 	padding:0;
 	position:relative;
 	margin:0 auto;
+	background: linear-gradient(to bottom,#bdc3c700 , #001b44);
 }
 .contact-me h3 {
 	color:#A1B3A4;
@@ -508,9 +509,7 @@ input#name {
 	height:50px;
     padding:10px;
 	border-radius:0px;
-	border-left: none;
-    border-top: none;
-    border-right: none;
+
 	
 }
 input#email {
@@ -519,18 +518,14 @@ input#email {
 	padding:10px;
 	height:50px;
 	border-radius:0px;
-	border-left: none;
-    border-top: none;
-    border-right: none;
+
 	
 }
 textarea.form-control {
     height: 140px;
 	outline:none;
 	border-radius:0px;
-	border-left: none;
-    border-top: none;
-    border-right: none;
+	
 	
 }
 .form-control:focus {
