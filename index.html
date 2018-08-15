@@ -195,7 +195,7 @@
 <div class="container-new">
 <p class="slogan"><span>Hello world.I am</span></p>
 <h1 class="main-title"> Sanker Das </h1>
-<p class="designation-cls">< The Web Developer /></p>
+<p class="designation-cls"><span>< The Web Developer /></span></p>
 <div class="social-icons" style="text-align:center">
 					<a href="#"><span class="facebook"></span></a>
 					<a href="#"><span class="twitter"></span></a>
@@ -264,7 +264,7 @@
 <!-- /Banner -->
 <!-- About -->
 <div class="about-me" id="about"> 
-	<h3 class="text-center slideanim">About My Skills</h3>
+	<h3 class="text-center slideanim main-headings">About My Skills</h3>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5 col-xs-12">
@@ -283,14 +283,26 @@
 					
 					.personal-details {}
 					.personal-details h4 {font-size: 25px;margin: 20px;}
-					.personal-details table { text-align:left}
+					.personal-details table { }
 					.personal-details td { padding: 10px;font-size: 17px; }
+					.personal-table { text-align:left; margin-left:35px }
+					
+					.main-headings {font-size: 50px; color:#4D4D4D}
+					
+					@media only screen and (max-width: 600px) {
+    .personal-details td {font-size: 13px;}
+	.main-title {font-size: 40px;}
+	.designation-cls { color:red; font-size: 18px;}
+	.designation-cls span { background:#1a1a1a}
+}
+					
+					
 					</style>
                     
 <div class="personal-details">
 <h4>Personal Details</h4>
 
-<table>
+<table class="personal-table">
 <tr><td>Date of Birth</td> 
 <td>Aug 27, 1994</td></tr>
 <tr>
@@ -337,9 +349,19 @@
 										<td><p>90%</p></td>
 									</tr>
 									<tr>
+										<td><h4>JQUERY</h4></td>
+										<td><span class="longline3"></span><span class="shortline3"></span></td>
+										<td><p>90%</p></td>
+									</tr>
+									<tr>
 										<td><h4>PHP</h4></td>
 										<td><span class="longline4"></span><span class="shortline4"></span></td>
-										<td><p>90%</p></td>
+										<td><p>92%</p></td>
+									</tr>
+									<tr>
+										<td><h4>MYSQL</h4></td>
+										<td><span class="longline5"></span><span class="shortline5"></span></td>
+										<td><p>95%</p></td>
 									</tr>
 									<tr>
 										<td><h4>WORDPRESS</h4></td>
@@ -347,6 +369,11 @@
 										<td><p>94%</p></td>
 									</tr>
 									<tr>
+										<td><h4>REACT.JS</h4></td>
+										<td><span class="longline5"></span><span class="shortline5"></span></td>
+										<td><p>90%</p></td>
+									</tr>
+								    <tr>
 										<td><h4>PHOTOSHOP</h4></td>
 										<td><span class="longline5"></span><span class="shortline5"></span></td>
 										<td><p>90%</p></td>
@@ -363,7 +390,7 @@
 <!-- /About -->
 <!-- Portfolio -->
 	<div class="myportfolio" id="portfolio">
-		<h3 class="text-center slideanim">My Portfolio</h3>
+		<h3 class="text-center slideanim main-headings">My Portfolio</h3>
 		<p class="text-center slideanim">My Recent Projects , Just "Click" on them to know More.</p>
 		<section class="vertical" id="grid3d">
 				<div class="grid-wrap">
@@ -456,7 +483,7 @@
 <!-- Gallery -->
 <!-- footer -->	
 <div class="contact-me" id="contact">
-	<h3 class="text-center slideanim">Contact Me</h3>
+	<h3 class="text-center slideanim main-headings">Contact Me</h3>
 	<p class="text-center slideanim">Want Website,App,SEO or any tech Help..? I can help you. Contact Me..!</p>
 	<div class="container">
 	<footer>

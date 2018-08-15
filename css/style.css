@@ -274,8 +274,6 @@ span.line2 {
 	margin:0 auto;
 }
 .about-me h3 {
-	color:#A1B3A4;
-	font-size:30px;
 	
 	line-height:25px;
 	font-weight:bold;
@@ -288,13 +286,13 @@ img.img-responsive {
 	background-color: #f5f5f5;
 }
 .mydetails {
-	padding:6.3em 0;
+	padding:4.3em 0;
 }
 .mydetails h3 {
 	color:#000;
 	padding: 1em 0;
 	
-	font-size:30px;
+	
 	line-height:10px;
 	font-weight:bold;
 }
@@ -361,70 +359,70 @@ img.img-responsive {
 }
 span.longline1 {
 	width:267px;
-	height:2px;
+	height:5px;
 	display:inline-block;
 	background-color:#A1B3A4;
 	margin-top: 3%;
 }
 span.shortline1 {
 	width:33px;
-	height:2px;
+	height:5px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
 }
 span.longline2 {
 	width:270px;
-	height:2px;
+	height:5px;
 	display:inline-block;
 	background-color:#A1B3A4;
 	margin-top: 3%;
 }
 span.shortline2 {
 	width:30px;
-	height:2px;
+	height:5px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
 }
 span.longline3 {
 	width:285px;
-	height:2px;
+	height:5px;
 	display:inline-block;
 	background-color:#A1B3A4;
 	margin-top: 3%;
 }
 span.shortline3 {
 	width:15px;
-	height:2px;
+	height:5px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
 }
 span.longline4 {
 	width:276px;
-	height:2px;
+	height:5px;
 	display:inline-block;
 	background-color:#A1B3A4;
 	margin-top: 3%;
 }
 span.shortline4 {
 	width:24px;
-	height:2px;
+	height:5px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
 }
 span.longline5 {
 	width:288px;
-	height:2px;
+	height:5px;
 	display:inline-block;
 	background-color:#A1B3A4;
 	margin-top: 3%;
 }
 span.shortline5 {
 	width:12px;
-	height:2px;
+	height:5px;
 	display:inline-block;
 	background-color:#fff;
 	margin-top: 3%;
@@ -436,8 +434,7 @@ span.shortline5 {
 	margin:0 auto;
 }
 .myportfolio h3 {
-	color:#A1B3A4;
-	font-size:30px;
+	
 	
 	line-height:25px;
 	font-weight:bold;
@@ -457,7 +454,7 @@ span.shortline5 {
 }
 .mygallery h3 {
 	color:#A1B3A4;
-	font-size:30px;
+	
 	
 	line-height:25px;
 	font-weight:bold;
@@ -491,9 +488,6 @@ span.shortline5 {
 	background: linear-gradient(to bottom,#bdc3c700 , #001b44);
 }
 .contact-me h3 {
-	color:#A1B3A4;
-	font-size:30px;
-	
 	line-height:25px;
 	font-weight:bold;
 	padding: 80px 0 20px;
@@ -535,8 +529,8 @@ textarea.form-control {
     box-shadow:none; 
 }
 .contact-me button.btn.btn-default.btn-lg {
-	background-color:#A1B3A4;
-	border-color:#A1B3A4;
+	background-color:#87C200;
+	border-color:#87C200;
 	color: #fff;
 	outline:none;
 	border-radius:0px;
@@ -1119,5 +1113,4 @@ footer span.glyphicon.glyphicon-chevron-up {
     padding-bottom: 10px;
 }
 }
-
 
